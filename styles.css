@@ -1,0 +1,29 @@
+body {
+    margin: 20px;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    /* 
+    Challenge:
+    Replace the two margin properties with a 
+    single margin shorthand.
+    */margin: 0px auto;
+    border-radius: 35px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #c77dff;
+    color: #212529;
+    border-bottom: 24px solid #2b9348;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
